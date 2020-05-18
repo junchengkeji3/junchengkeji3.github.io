@@ -307,6 +307,7 @@
           <div class="col-md-5">
             <select id="date" class="col-md-5 fadeIn wow rows">
               <option value="1">2020年05月02日</option> 
+	      <option value="2">2020年05月14日</option> 
             </select>
           </div>
           <div class="col-md-2">
@@ -343,7 +344,9 @@
         case 1:
           altizureLink = "http://gz.altizure.info:31391/project-model?pid=5ead9c36a1aa740054b6994a&render=texture&campose=false&embed=true&share=off&view_mode=off&";
           break;
-      
+       case 2:
+          altizureLink = "http://gz.altizure.info:31391/project-model?pid=5ebe15428e69a70037bd14bc&render=texture&campose=false&embed=true&share=off&view_mode=off&";
+          break;
       }
       document.getElementById('test').src = altizureLink;
     }
